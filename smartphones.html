@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#f7f8fa">
+    <meta name="description" content="Выберите смартфон в магазине mobile.">
+    <title>Смартфоны — mobile</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="topbar"><p>Бесплатная доставка от 44 000 сом <span>·</span> Возврат в течение 30 дней</p></div>
+        <div class="nav-wrap container">
+            <a class="brand" href="index.html" aria-label="mobile — главная"><span class="brand-mark">m</span> mobile</a>
+            <nav class="main-nav" aria-label="Главная навигация">
+                <a class="active" href="smartphones.html">Смартфоны</a>
+                <a href="deals.html">Скидки</a>
+                <a href="accessories.html">Аксессуары</a>
+                <a href="about.html">О нас</a>
+            </nav>
+            <div class="nav-actions">
+                <button class="icon-button search-button" aria-label="Поиск"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"></circle><path d="m16 16 4.5 4.5"></path></svg></button>
+                <button class="icon-button bag-button" aria-label="Корзина, товаров: 0"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8h14l1 12H4L5 8Z"></path><path d="M9 9V6a3 3 0 0 1 6 0v3"></path></svg><span class="bag-count">0</span></button>
+                <button class="menu-button" aria-label="Открыть меню" aria-expanded="false"><span></span><span></span></button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="page-intro container">
+            <span class="eyebrow">КАТАЛОГ</span>
+            <h1>Смартфоны для ваших идей.</h1>
+            <p>Выбирайте из проверенных моделей Apple, Samsung и Google. Все цены — в сомах.</p>
+        </section>
+        <section class="products-section container" id="phones">
+            <div class="category-tabs" aria-label="Категории смартфонов">
+                <a class="selected" href="#phones">Все смартфоны</a>
+                <a href="#phones">Apple</a>
+                <a href="#phones">Samsung</a>
+                <a href="#phones">Google</a>
+                <a href="#phones">До 44 000 сом</a>
+            </div>
+            <div class="product-grid">
+                <article class="product-card">
+                    <div class="product-image image-iphone"><span class="product-badge">ХИТ ПРОДАЖ</span><img src="https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=700&q=85" alt="iPhone 16 Pro в титановом корпусе"></div>
+                    <div class="product-info"><div class="product-title"><h3>iPhone 16 Pro</h3><span class="rating">★ 4,9</span></div><p>Прочный титан. Невероятная лёгкость.</p><div class="product-bottom"><strong>87 500 сом</strong><button class="add-to-cart" type="button" data-product-id="iphone-16-pro" data-product-name="iPhone 16 Pro" data-price="87500" aria-label="Добавить iPhone 16 Pro в корзину">↗</button></div></div>
+                </article>
+                <article class="product-card">
+                    <div class="product-image image-samsung"><span class="product-badge badge-new">НОВИНКА</span><img src="https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?auto=format&fit=crop&w=700&q=85" alt="Смартфон Samsung Galaxy"></div>
+                    <div class="product-info"><div class="product-title"><h3>Galaxy S25 Ultra</h3><span class="rating">★ 4,8</span></div><p>Большой экран для больших идей.</p><div class="product-bottom"><strong>105 000 сом</strong><button class="add-to-cart" type="button" data-product-id="galaxy-s25-ultra" data-product-name="Galaxy S25 Ultra" data-price="105000" aria-label="Добавить Galaxy S25 Ultra в корзину">↗</button></div></div>
+                </article>
+                <article class="product-card">
+                    <div class="product-image image-pixel"><img src="https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=700&q=85" alt="Смартфон Google Pixel"></div>
+                    <div class="product-info"><div class="product-title"><h3>Google Pixel 9</h3><span class="rating">★ 4,9</span></div><p>Умный помощник на каждый день.</p><div class="product-bottom"><strong>70 000 сом</strong><button class="add-to-cart" type="button" data-product-id="google-pixel-9" data-product-name="Google Pixel 9" data-price="70000" aria-label="Добавить Google Pixel 9 в корзину">↗</button></div></div>
+                </article>
+                <article class="product-card">
+                    <div class="product-image image-iphone-air"><span class="product-badge badge-sale">ВЫГОДА 9 000 сом</span><img src="https://images.unsplash.com/photo-1592750475338-74b7b21085ab?auto=format&fit=crop&w=700&q=85" alt="iPhone 15 в светлом корпусе"></div>
+                    <div class="product-info"><div class="product-title"><h3>iPhone 15</h3><span class="rating">★ 4,7</span></div><p>Всё необходимое и даже больше.</p><div class="product-bottom"><strong>61 000 сом <del>70 000 сом</del></strong><button class="add-to-cart" type="button" data-product-id="iphone-15" data-product-name="iPhone 15" data-price="61000" aria-label="Добавить iPhone 15 в корзину">↗</button></div></div>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer><div class="container footer-inner"><a class="brand" href="index.html"><span class="brand-mark">m</span> mobile</a><p>Хорошая техника для хороших людей. © 2026 mobile.</p><a href="mailto:hello@mobile.example">Связаться с нами ↗</a></div></footer>
+    <script src="script.js" defer></script>
+</body>
+</html>
